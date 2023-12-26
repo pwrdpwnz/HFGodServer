@@ -1,0 +1,15 @@
+[26.12.23 15:43:48:020]  INFO gameserver.GameServer: =================================================
+[26.12.23 15:43:48:023]  INFO gameserver.GameServer: Project Revision: ........ L2s [20720]
+[26.12.23 15:43:48:027]  INFO gameserver.GameServer: Build Revision: .......... 2332
+[26.12.23 15:43:48:027]  INFO gameserver.GameServer: Update: .................. High Five: Part 5 GOD
+[26.12.23 15:43:48:028]  INFO gameserver.GameServer: Build date: .............. 2019.04.21 15:39
+[26.12.23 15:43:48:028]  INFO gameserver.GameServer: Compiler version: ........ 1.8.0_181-b13 (Oracle Corporation)
+[26.12.23 15:43:48:028]  INFO gameserver.GameServer: =================================================
+[26.12.23 15:43:48:120]  WARN holder.HostsConfigHolder: HostsConfigHolder: Error while loading gameserver host info! Host have dublicate id: 1
+[26.12.23 15:43:48:123]  INFO holder.HostsConfigHolder: =================================================
+[26.12.23 15:43:48:123]  INFO holder.HostsConfigHolder: Authserver host info: IP[127.0.0.1], PORT[9014]
+[26.12.23 15:43:48:123]  INFO holder.HostsConfigHolder: =================================================
+[26.12.23 15:43:48:123]  INFO holder.HostsConfigHolder: Gameserver host info:
+[26.12.23 15:43:48:123]  INFO holder.HostsConfigHolder: ID[1], ADDRESS[127.0.0.1], PORT[7777]
+[26.12.23 15:43:48:123]  INFO holder.HostsConfigHolder: =================================================
+[26.12.23 15:43:48:189]  INFO gameserver.Config: Abuse: Loaded 18 abuse words.

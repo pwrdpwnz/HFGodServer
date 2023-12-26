@@ -1,0 +1,21 @@
+[24.12.23 23:56:40:398]  INFO authserver.Config: Loaded 127 server names
+[24.12.23 23:56:40:652]  INFO authserver.Config: Loaded whirlpool2 as default crypt.
+[24.12.23 23:56:41:089]  INFO authserver.Config: Cached 10 KeyPairs for RSA communication
+[24.12.23 23:56:41:097]  INFO authserver.Config: Stored 20 keys for Blowfish communication
+[24.12.23 23:56:41:125] ERROR authserver.GameServerManager: 
+java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:975)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1025)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at l2s.authserver.GameServerManager.load(GameServerManager.java:59)
+	at l2s.authserver.GameServerManager.<init>(GameServerManager.java:46)
+	at l2s.authserver.GameServerManager.<clinit>(GameServerManager.java:32)
+	at l2s.authserver.AuthServer.<init>(AuthServer.java:38)
+	at l2s.authserver.AuthServer.main(AuthServer.java:96)
+[24.12.23 23:56:41:127]  INFO authserver.GameServerManager: Loaded 0 registered GameServer(s).
+[24.12.23 23:56:41:147]  INFO authserver.AuthServer: Listening for gameservers on *:9014
+[24.12.23 23:56:41:147]  INFO authserver.AuthServer: Listening for clients on *:2106
